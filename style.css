@@ -1,0 +1,193 @@
+.navbar-custom {
+    background: linear-gradient(90deg, #365959, #ef7554, #f64ac5, #196bef);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #00eaff;
+}
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+.home-section {
+    background: linear-gradient(135deg, #fdfcfb, #e2d1c3, #c3d6e2, #d4a5d4);
+    padding: 80px 20px;
+    color: #444;
+    text-align: center;
+}
+.home-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.home-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.btn-custom {
+    background: #5a95f6;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.btn-custom:hover {
+    background: #00f2ff;
+}
+.about-section {
+    background: linear-gradient(135deg, #fdfcfb, #e2d1c3, #c3d6e2, #d4a5d4);
+    padding: 80px 20px;
+    color: #444;
+}
+.about-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.about-text {
+    flex: 1;
+}
+.about-image {
+    flex: 1;
+}
+.about-image img {
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.services-section {
+    background: linear-gradient(135deg, #c3d6e2, #d4a5d4, #fad0c4, #ff9a9e);
+    padding: 80px 20px;
+    color: #444;
+}
+.services-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.service-card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+.service-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+}
+.contact-section {
+    background: linear-gradient(135deg, #fad0c4, #ff9a9e, #fbc2eb, #a1c4fd);
+    padding: 80px 20px;
+    color: #444;
+}
+.contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact-form {
+    flex: 1;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-form button {
+    background: #538be4;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.contact-form button:hover {
+    background: #00f2ff;
+}
+.contact-image {
+    flex: 1;
+    text-align: center;
+}
+.contact-image img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.contact-image img:hover {
+    transform: scale(1.05);
+}
+.footer {
+    background: linear-gradient(90deg, #285192, #000000);
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+.footer a:hover {
+    color: #00fff2;
+}
